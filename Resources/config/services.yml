@@ -1,0 +1,3 @@
+services:
+    wvs_browser.detect_browser:
+        class: Wvs\BrowserBundle\Detect\Browser
