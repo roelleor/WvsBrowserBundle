@@ -18,4 +18,9 @@ class Browser extends \Browser
 
         return self::DEVICE_TYPE_DESKTOP;
     }
+
+    public function isTouchDevice()
+    {
+        return ($this->isMobile() || $this->isTablet());
+    }
 }
